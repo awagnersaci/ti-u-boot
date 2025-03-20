@@ -32,6 +32,18 @@
 		};
 	};
 
+
+	gpio-keys {
+ 		status = "disable";
+	};
+ 
+
+
+ 
+	gpio-leds {
+		status = "disable";
+ 	};
+
 	a53_timer0: timer-cl0-cpu0 {
 		compatible = "arm,armv8-timer";
 		interrupts = <GIC_PPI 13 IRQ_TYPE_LEVEL_LOW>, /* cntpsirq */
